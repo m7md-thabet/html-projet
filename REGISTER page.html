@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <link 
+            rel="shortcut icon" 
+            href="download.jpg" 
+            type="image/x-icon">
+        <title>
+            FCIA
+        </title>
+        <meta 
+            charset="UTF-8" 
+            content="register page">
+        <style></style>
+        <script></script> <!--if i learn java script-->
+    </head>
+    <body style="background-color: rgb(54, 167, 243);text-align: center">
+        <header style="background-color: rgb(3, 62, 102);">
+            <p  style="text-align: left">REGISTER</p>
+            <h1>FCIA</h1>
+            <q >put your information</q>
+        </header>
+        <form>
+            <!--NAME-->
+           <div>
+                <label for="n">NAME</label>
+                <input
+                    id="n"
+                    type="text"
+                    autofocus
+                    required
+                    placeholder=" put your name">
+           </div>
+                <!--PASSWORD-->
+           <div>
+            <label for="p">PASSWORD</label>
+            <input
+                id="p"
+                type="password"
+                placeholder="maximam 10 ch"
+                max="10"
+                    required>
+            </div>
+                    <!-- ID-->
+            <div>
+                    <label for="i">NATIONAL ID</label>
+                <input
+                    id="i"
+                    type="text"
+                    placeholder="put your id"
+                    max="14"
+                    min="14"
+                    required>
+            </div>
+                    <!--EMAIL-->
+            <div>
+            <label for="e">EMAIL</label>
+            <input
+                id="e"
+                type="email"
+                placeholder="your email"
+                value="@gmail.com"
+                required>
+            </div>
+                <!--الشعبه-->
+            <div>
+                <label for="m">MEDICAL</label>
+                <input
+                    id="m" 
+                    type="radio" 
+                    value="division" 
+                    required>
+                    <br><br>
+                    <label for="g">GENERAL</label>
+                    <input
+                        id="g" 
+                        type="radio" 
+                        value="division" 
+                        required>        
+            </div>
+            <br><br>
+                <!--الفرقة-->
+            <div>
+                <Label for="s">الفرقة</Label>
+                <select id="s" >
+                    <option>الاولى</option>
+                    <option>الثانية</option>
+                    <option>الثالثة</option>
+                    <option>الرابعة</option>
+
+                </select>
+
+            </div>
+            <br><br>
+                <!--buttons-->
+            <input 
+                type="submit"
+                value="SEND">
+            <input 
+                type="reset"
+                value="CLEAR">    
+
+            
+
+        </form>
+        <br><br>
+        <a href="file:///D:/project/FACIA%20home.html"
+           title="back to home"
+           target="_parent"
+           style="text-align: left;"><button>BACK</button></a>
+    </body>

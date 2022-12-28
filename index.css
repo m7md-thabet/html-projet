@@ -1,0 +1,127 @@
+ body{
+    background-color: #678983;
+}
+.head{
+   
+    border: 1px #181D31 solid  ;
+    background-color:#181D31;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    position: fixed;
+    width: 1335px;px;
+    top: 0px;
+    z-index: 4;
+    
+}
+.h1{
+    text-align: center;
+}
+
+.p1{
+    font-size:x-small;
+    padding: right 10px ;
+}
+.img{
+    position: absolute;
+    top: 100px;
+    border: #678983 solid 5px;
+    padding: 10px;
+    z-index: 3;
+ 
+
+}
+#read{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border: 2px ;
+    padding: 20px;
+    top: 200px;
+    right: 0px;
+    direction: rtl;
+    z-index: 2;
+}
+.r{ 
+    border-radius: 30px;
+    font-size: small;
+    background-color:#181D31;
+    color: #E6DDC4;
+    padding: 10px;
+    position: absolute;
+    top: 500px; 
+   margin-bottom: 300px;  
+}
+.r:hover{
+    border-radius: 100px;
+    font-size: large;
+    background-color: #DD5353;
+    color: #181D31; 
+    padding: 10;
+    position: absolute;
+    top: 500px; 
+   margin-bottom: 300px;  
+}
+.f{ 
+    border-radius: 30px;
+    font-size: small;
+    background-color:#181D31;
+    color: #E6DDC4;
+    padding: 10px;
+    position: absolute;
+    top: 500px; 
+    right: 50%;
+   margin-bottom: 300px;  
+}
+.f:hover{
+    border-radius: 100px;
+    font-size: large;
+    background-color: #DD5353;
+    color: #181D31; 
+    padding: 10;
+    position: absolute;
+    top: 500px;
+    right: 50%; 
+   margin-bottom: 300px;  
+}
+.m{ 
+    border-radius: 30px;
+    font-size: small;
+    background-color:#181D31;
+    color:#E6DDC4;
+    padding: 10px;
+    position: absolute;
+    top: 500px;
+    right: 0px; 
+   margin-bottom: 300px;  
+
+}
+.m:hover{
+    border-radius: 100px;
+    font-size: large;
+    background-color: #DD5353;
+    color: #1a374d; 
+    padding: 10;
+    position: absolute;
+    top: 500px; 
+    right: 0px;
+   margin-bottom: 300px;  
+}
+.m2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    margin-right: 10px;
+}
+#read2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border: 2px ;
+    padding: 20px;
+    top: 620px;
+    right: 0px;
+    direction: rtl;
+    z-index: 2;
+}

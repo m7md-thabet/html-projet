@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+        <link 
+            rel="shortcut icon" 
+            href="Picsart_22-12-18_17-39-34-138.png" 
+            type="image/x-icon">
+        <title>
+            FCIA
+        </title>
+        <link 
+        rel="stylesheet"
+        href="register.css">
+        <meta 
+            charset="UTF-8" 
+            content="register page">
+        <style></style>
+        <script></script> <!--if i learn java script-->
+    </head>
+    <body>
+        <!--header-->
+        <div class="head">
+            <p class="p1">REGISTER</p>
+            <h1 class="h1">FCIA</h1>
+        </div>
+        <div class="form">        
+            <fieldset>
+            <legend><img src="loginIcon.png" alt="sign in" width="50px" height="50px"></legend>
+            <form>
+                <div class="f">
+            <!--NAME-->
+                <input
+                    type="text"
+                    autofocus
+                    required
+                    placeholder="USER NAME">
+                    <br><br>
+
+                <!--PASSWORD-->
+            <input
+                id="p"
+                type="password"
+                placeholder="PASWORD"
+                required>
+                    <!-- ID-->
+                    <br><br>
+                <input    
+                    type="text"
+                    placeholder="NATIONAL ID"
+                    maxlength="14"
+                    minlength="14"
+                    required>
+                    <!--EMAIL-->
+                    <br><br>
+            <input
+                type="email"
+                placeholder="EMAIL"
+                required>
+                <!--الشعبه-->
+                <br><br>
+                <label for="m">MEDICAL</label>
+                <input
+                    id="m" 
+                    type="radio"  
+                    name="الشعبة"
+                    required>
+                    <br>
+                    <br>
+                    <label for="g">GENERAL</label>
+                    <input
+                        id="g" 
+                        type="radio"
+                        name="الشعبة" 
+            
+                        required>        
+
+            <br><br>
+                <!--الفرقة-->
+
+                <Label for="s">الفرقة</Label>
+                <select id="s" >
+                    <option>الاولى</option>
+                    <option>الثانية</option>
+                    <option>الثالثة</option>
+                    <option>الرابعة</option>
+
+                </select>
+
+
+            <br><br>
+                <!--buttons-->
+            <input 
+            class="r"
+                type="submit"
+                value="SEND">
+            <input
+            class="r2" 
+                type="reset"
+                value="CLEAR">    
+            </div>
+         </form>
+        </fieldset>
+        </div>
+
+        <br><br>
+        <a href="index.html"
+           title="back to home"
+           target="_parent"
+           style="text-align: left;"><button  class="r3">BACK</button></a>
+    </body>
